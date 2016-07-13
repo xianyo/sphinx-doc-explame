@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:4
+msgid "MSROperationResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:11
+msgid "\\ ``MSROperationResult``\\ 是被磁条卡阅读器设备产生，用来返回磁条卡的操作结果。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:13
+msgid ""
+"\\ :java:ref:`getResultCode() <OperationResult.getResultCode()>`\\ "
+"方法继承至\\ :java:ref:`OperationResult`\\ 的对应方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:15
+msgid ""
+"这里通过\"ERR_\"设置了本设备相关的自定义错误，可以在\\ :java:ref:`getResultCode() "
+"<OperationResult.getResultCode()>`\\ 返回， 通过\\ :java:ref:`getMSTrackData()"
+" <MSROperationResult.getMSRTrackData()>`\\ 返回磁条卡数据对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:18
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:20
+msgid "ERR_INVALIDMEDIA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:25
+msgid "磁条卡数据无法读取"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:28
+msgid "ERR_NOMEDIA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:33
+msgid "没有检测到磁条卡信息"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:36
+msgid "ERR_READFAIL"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:41
+msgid "检查到磁条卡数据编码错误"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:44
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:46
+msgid "getMSRTrackData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:51
+msgid "返回磁条卡数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:53
+msgid "磁条卡数据对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSROperationResult.rst:55
+msgid "**See also:** :java:ref:`MSRTrackData`"
+msgstr ""
+

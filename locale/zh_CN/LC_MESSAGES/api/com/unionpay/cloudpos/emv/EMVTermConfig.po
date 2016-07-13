@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:6
+msgid "EMVTermConfig"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:14
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:16
+msgid "getCapability"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:21
+msgid "获取终端性能。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:23
+msgid "终端性能 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:26
+msgid "getCountryCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:31
+msgid "获取国家代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:33
+msgid "国家代码 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:36
+msgid "getExtCapability"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:41
+msgid "获取附加终端性能。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:43
+msgid "附加终端性能 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:46
+msgid "getExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:51
+msgid "获取扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:53
+msgid "扩展域 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:56
+msgid "getMerchCateCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:61
+msgid "获取商户类别码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:63
+msgid "商户类别码 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:66
+msgid "getMerchId"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:71
+msgid "获取商户标志（商户号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:73
+msgid "商户标志（商户号） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:76
+msgid "getMerchName"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:81
+msgid "获取商户名。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:83
+msgid "商户名 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:86
+msgid "getReferCurrCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:91
+msgid "获取参考货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:93
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:233
+msgid "参考货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:96
+msgid "getReferCurrCon"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:101
+msgid "获取参考货币代码和交易代码的转换系数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:103
+msgid "参考货币代码和交易代码的转换系数 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:106
+msgid "getReferCurrExp"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:111
+msgid "获取参考货币指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:113
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:253
+msgid "参考货币指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:116
+msgid "getTermId"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:121
+msgid "获取终端标志（POS号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:123
+msgid "终端标志（POS号） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:126
+msgid "getTermType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:131
+msgid "获取终端类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:133
+msgid "终端类型 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:136
+msgid "getTransCurrCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:141
+msgid "获取交易货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:143
+msgid "交易货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:146
+msgid "getTransCurrExp"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:151
+msgid "获取交易货币代码指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:153
+msgid "交易货币代码指数 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:156
+msgid "setCapability"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:161
+msgid "设置终端性能（参考PBOC规范）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:163
+msgid "终端性能。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:166
+msgid "setCountryCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:171
+msgid "设置国家代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:173
+msgid "国家代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:176
+msgid "setExtCapability"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:181
+msgid "设置附加终端性能（参考PBOC规范）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:183
+msgid "附加终端性能。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:186
+msgid "setExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:191
+msgid "设置扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:193
+msgid "扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:196
+msgid "setMerchCateCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:201
+msgid "设置商户类别码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:203
+msgid "商户类别码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:206
+msgid "setMerchId"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:211
+msgid "设置商户标志（商户号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:213
+msgid "商户标志（商户号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:216
+msgid "setMerchName"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:221
+msgid "设置商户名。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:223
+msgid "商户名。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:226
+msgid "setReferCurrCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:231
+msgid "设置参考货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:236
+msgid "setReferCurrCon"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:241
+msgid "设置参考货币代码和交易代码的转换系数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:243
+msgid "参考货币代码和交易代码的转换系数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:246
+msgid "setReferCurrExp"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:251
+msgid "设置参考货币指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:256
+msgid "setTermId"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:261
+msgid "设置终端标志（POS号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:263
+msgid "终端标志（POS号）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:266
+msgid "setTermType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:271
+msgid "设置终端类型（参考PBOC规范）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:273
+msgid "终端类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:276
+msgid "setTransCurrCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:281
+msgid "设置交易货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:283
+msgid ""
+"交易货币代码，若为人民币账户，\\ :java:ref:`EMVConstants.Currency_Code_RMB`\\ ； "
+"若为积分账户，\\ :java:ref:`EMVConstants.Currency_Code_JIFEN`\\ "
+"；若为其他币种，根据ISO货币代码填写。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:286
+msgid "setTransCurrExp"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:291
+msgid "设置交易货币代码指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTermConfig.rst:293
+msgid "交易货币代码指数。"
+msgstr ""
+

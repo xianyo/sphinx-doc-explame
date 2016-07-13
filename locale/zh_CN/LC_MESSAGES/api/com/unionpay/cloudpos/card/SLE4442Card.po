@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:4
+msgid "SLE4442Card"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:11
+msgid ""
+"接触式IC卡的一种。有三项安全机制用户密码，唯一代码， 固化写入。密码若未核对正确，则无法写入数据。写入的数据一经写保护则无法再更改， "
+"采用唯一代码作为系统所使用IC卡的标识，可避免相同型号的假冒卡闯入系统。 属于memory card的一种."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:14
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:16
+msgid "MEMORY_CARD_AREA_MAIN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:21
+msgid "Memory卡的主数据区"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:24
+msgid "MEMORY_CARD_AREA_PROTECTED"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:29
+msgid "Memory卡的厂商数据库，只读。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:32
+msgid "MEMORY_CARD_AREA_SECURITY"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:37
+msgid "Memory卡的安全数据库。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:40
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:42
+msgid "connect"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:47
+msgid "连接卡片，并返回卡片的ATR信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:49
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:60
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:50
+msgid "卡片的ATR信息"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:53
+msgid "disconnect"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:58
+msgid "断开卡片。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:63
+msgid "read"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:68
+msgid "读取内存卡的数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:70
+msgid "读取的区域标志，包括以下常量："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:72
+msgid ""
+"\\ :java:ref:`MEMORY_CARD_AREA_MAIN`\\  \\ "
+":java:ref:`MEMORY_CARD_AREA_PROTECTED`\\   \\ "
+":java:ref:`MEMORY_CARD_AREA_SECURITY`\\ :param address: 地址，由0开始。 :param "
+"length: 读取数据的长度 :throws Exception: 具体定义参考\\ :java:ref:`DeviceException "
+"<DeviceException>`\\ 的文档。 :return: 读取数据的内容，长度为length指定长度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:79
+msgid "verify"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:84
+msgid "使用给定的密钥，验证memory卡。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:87
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:88
+msgid "\\ ``true``\\  成功,\\ ``false``\\  失败。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:91
+msgid "write"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:96
+msgid "向内存卡写入数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:98
+msgid "目标的区域标志，包括以下常量："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/SLE4442Card.rst:100
+msgid ""
+"\\ :java:ref:`MEMORY_CARD_AREA_MAIN`\\  \\ "
+":java:ref:`MEMORY_CARD_AREA_PROTECTED`\\   \\ "
+":java:ref:`MEMORY_CARD_AREA_SECURITY`\\ :param address: 地址，由0开始。 :param "
+"data: 写入的数据 :throws Exception: 具体定义参考\\ :java:ref:`DeviceException "
+"<DeviceException>`\\ 的文档。"
+msgstr ""
+

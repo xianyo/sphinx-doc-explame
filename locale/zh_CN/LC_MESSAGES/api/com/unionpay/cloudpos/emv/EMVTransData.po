@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:4
+msgid "EMVTransData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:12
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:14
+msgid "getAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:19
+msgid "获取交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:21
+msgid "交易金额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:24
+msgid "getChannelType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:29
+msgid "获取通道类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:31
+msgid "通道类型 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:34
+msgid "getExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:39
+msgid "获取扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:41
+msgid "扩展域 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:44
+msgid "getFlow"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:49
+msgid "获取流程类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:51
+msgid "流程类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:54
+msgid "getOtherAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:59
+msgid "获取其他金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:61
+msgid "其他金额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:64
+msgid "getTraceNo"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:69
+msgid "获取交易序号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:71
+msgid "交易序号 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:74
+msgid "getTransDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:79
+msgid "获取交易日期，YYYYMMDD。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:81
+msgid "交易日期 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:84
+msgid "getTransTime"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:89
+msgid "获取交易时间，HHMMSS。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:91
+msgid "交易时间，HHMMSS 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:94
+msgid "getTransType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:99
+msgid "获取交易类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:101
+msgid "交易类型 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:104
+msgid "isCardAuth"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:109
+msgid "获取是否执行脱机数据认证。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:111
+msgid "是否执行脱机数据认证 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:114
+msgid "isForceOnline"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:119
+msgid "获取是否强制联机。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:121
+msgid "是否强制联机 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:124
+msgid "isSupportCVM"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:129
+msgid "获取是否执行CVM。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:131
+msgid "是否执行CVM 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:134
+msgid "isSupportEC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:139
+msgid "获取是否电子现金交易。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:141
+msgid "是否电子现金交易 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:144
+msgid "isSupportSM"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:149
+msgid "获取是否支持国密。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:151
+msgid "是否支持国密 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:154
+msgid "setAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:159
+msgid "设置交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:161
+msgid "交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:164
+msgid "setCardAuth"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:169
+msgid "设置是否执行脱机数据认证。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:171
+msgid "是否执行脱机数据认证。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:174
+msgid "setChannelType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:179
+msgid "设置通道类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:181
+msgid "通道类型，0：接触式 ；1：非接触式。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:184
+msgid "setExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:189
+msgid "设置扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:191
+msgid "扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:194
+msgid "setFlow"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:199
+msgid "设置流程类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:201
+msgid "流程类型，0x01：标准的授权过程；0x02：简易流程；0x03：qPBOC流程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:204
+msgid "setForceOnline"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:209
+msgid "设置是否强制联机。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:211
+msgid "是否强制联机。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:214
+msgid "setOtherAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:219
+msgid "设置其他金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:221
+msgid "其他金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:224
+msgid "setSupportCVM"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:229
+msgid "设置是否执行CVM。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:231
+msgid "是否执行CVM。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:234
+msgid "setSupportEC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:239
+msgid "设置是否电子现金交易。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:241
+msgid "是否电子现金交易。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:244
+msgid "setSupportSM"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:249
+msgid "设置是否支持国密。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:251
+msgid "是否支持国密。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:254
+msgid "setTraceNo"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:259
+msgid "设置交易序号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:261
+msgid "交易序号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:264
+msgid "setTransDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:269
+msgid "设置交易日期，YYYYMMDD。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:271
+msgid "交易日期，YYYYMMDD"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:274
+msgid "setTransTime"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:279
+msgid "设置交易时间，HHMMSS。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:281
+msgid "交易时间，HHMMSS。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:284
+msgid "setTransType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:289
+msgid "设置交易类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransData.rst:291
+msgid "交易类型。"
+msgstr ""
+

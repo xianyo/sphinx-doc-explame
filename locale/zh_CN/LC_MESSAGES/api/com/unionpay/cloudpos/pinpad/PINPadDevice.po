@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:12
+msgid "PINPadDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:19
+msgid "\\ **PINPadDevice**\\ 定义了PIN输入设备的接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:21
+msgid ""
+"PIN输入设备是智能销售点终端的核心组件之一，用于加密持卡人的PIN、计算交易报文MAC，加解密数据等，可做为共享资源供终端上所有应用使用。 "
+"为了唯一标识PIN输入设备中的终端主密钥，PIN输入设备为每一套终端主密钥分配了一个密钥索引号。PIN输入设备的详细描述参考《银联卡受理终端安全规范-第8部分-智能销售点终端安全规范》"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:23
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:30
+msgid "其中，\"cloudpos.device.pinpad\"是标识PIN输入设备的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:32
+msgid ""
+"使用PIN输入设备对象，可以在PIN输入设备上显示文本，修改用户密钥，对数据加密，计算MAC，返回随机数。PIN输入设备输入PIN的操作有两种方式，一种是同步，一种是异步。同步方式会将主线程锁定，直到有结果返回，超时或者被取消。"
+" 异步方式不会锁定主线程，当有结果时，会回调监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:34
+msgid "为了正常访问PIN输入设备，请在Android Manifest文件中设置PIN输入设备访问权限，具体如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:38
+msgid ""
+"<uses-permission "
+"android:name=\"android.permission.CLOUDPOS_PIN_GET_PIN_BLOCK\"/> "
+"应用程序声明这个权限，可以调用\\ "
+":java:ref:`listenForPinBlock(KeyInfo,String,boolean,OperationListener,int)`\\"
+" 及\\ :java:ref:`waitForPinBlock(KeyInfo,String,boolean,int)`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:39
+msgid ""
+"<uses-permission android:name=\"android.permission.CLOUDPOS_PIN_MAC\"/> "
+"应用程序声明这个权限，可以调用\\ :java:ref:`calculateMac(KeyInfo,int,byte[])`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:40
+msgid ""
+"<uses-permission "
+"android:name=\"android.permission.CLOUDPOS_PIN_ENCRYPT_DATA\"/>， "
+"应用程序声明这个权限，可以调用\\ :java:ref:`encryptData(KeyInfo,byte[])`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:41
+msgid ""
+"<uses-permission "
+"android:name=\"android.permission.CLOUDPOS_PIN_UPDATE_USER_KEY\"/>， "
+"应用程序声明这个权限，可以调用\\ :java:ref:`updateUserKey(int,int,byte[],int,byte[])`\\ "
+"及\\ :java:ref:`updateUserKey(int,int,byte[])`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:43
+msgid "PIN输入设备可以是外接的，也可以是内置的。对于内置的情况，终端系统提供密码输入界面。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:45
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:48
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:50
+msgid "CHECK_TYPE_CUP"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:55
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:65
+msgid "校验位的校验方式之一，无校验位验证。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:57
+msgid "用于更新工作密钥时使用。 用PIN key 对校验数据的8个字节进行计算，取头四个字节进行校验。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:60
+msgid "CHECK_TYPE_NONE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:67
+msgid "用于更新工作密钥时使用。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:70
+msgid "KEY_TYPE_DUKPT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:75
+msgid "密钥类型：DUKPT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:78
+msgid "KEY_TYPE_FIX"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:83
+msgid "密钥类型：固定密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:86
+msgid "KEY_TYPE_MK_SK"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:91
+msgid "密钥类型：主密钥/会话密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:94
+msgid "KEY_TYPE_TDUKPT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:99
+msgid "密钥类型：TDUKPT，三重DES的DUKPT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:102
+msgid "USER_KEY_ID_DATA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:107
+msgid "加密数据"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:110
+msgid "USER_KEY_ID_MAC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:115
+msgid "MAC计算密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:118
+msgid "USER_KEY_ID_PIN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:123
+msgid "PIN加密密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:126
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:128
+msgid "calculateMac"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:133
+msgid "按照KeyInfo中指定的密钥进行计算MAC。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:135
+msgid "这里KeyInfo中，algorithm一般不需要指定。具体的MAC算法由macFlag参数指定。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:137
+msgid "指定计算MAC的密钥。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:138
+msgid "计算MAC的算法。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:142
+msgid ""
+"X9.19 算法 ,后补 80：\\ :java:ref:`ALG_MAC_METHOD_X919_80 "
+"<AlgorithmConstants.ALG_MAC_METHOD_X919_80>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:143
+msgid ""
+"银联 ECB 算法：\\ :java:ref:`ALG_MAC_METHOD_ECB "
+"<AlgorithmConstants.ALG_MAC_METHOD_ECB>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:144
+msgid ""
+"X9.19算法 (不足后补 0x00)：\\ :java:ref:`ALG_MAC_METHOD_X919_X00 "
+"<AlgorithmConstants.ALG_MAC_METHOD_X919_X00>`\\ 移动支付项目使用。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:145
+msgid ""
+"中总行扩展算法：\\ :java:ref:`ALG_MAC_METHOD_BOCE "
+"<AlgorithmConstants.ALG_MAC_METHOD_BOCE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:146
+msgid ""
+"X9.19算法 ,后补 00：\\ :java:ref:`ALG_MAC_METHOD_X919_00 "
+"<AlgorithmConstants.ALG_MAC_METHOD_X919_00>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:147
+msgid ""
+"异或后 3DES：\\ :java:ref:`ALG_MAC_METHOD_XOR_3DES "
+"<AlgorithmConstants.ALG_MAC_METHOD_XOR_3DES>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:148
+msgid ""
+"#. X9.9：\\ :java:ref:`ALG_MAC_METHOD_X99 "
+"<AlgorithmConstants.ALG_MAC_METHOD_X99>`\\ 。 :param plain: 数据明文。 :return:"
+" MAC。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:153
+msgid "clearText"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:158
+msgid "清空文本显示。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:160
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:172
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:230
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:241
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:298
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:315
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:330
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:163
+msgid "encryptData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:168
+msgid "按照KeyInfo中选定的密钥进行数据加密，通常用于计算用户数据等操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:170
+msgid ": 设置加密配置信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:171
+msgid ": 需要加密的明文。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:173
+msgid "加完密的密文。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:176
+msgid "getRandom"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:181
+msgid "返回随机数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:183
+msgid "随机数的长度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:184
+msgid "随机数buffer流。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:187
+msgid "getSN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:192
+msgid "返回PINPad序列号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:194
+msgid "PINPad序列号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:197
+msgid "listenForPinBlock"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:202
+msgid "让用户输入PIN，并且按照KeyInfo中选定的密钥进行PIN block的加密。最后返回加密结果。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:204
+msgid ""
+"本方法是一个异步方法，应用程序等待PIN输入设备输入命令后，终端通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法返回结果。 "
+"每个应用程序必须定义自己的OperationListener，在回调函数handleResult()中对返回结果进行处理。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:215
+msgid "方法通过设置timeout来决定最多等待多长时间。请求开始执行的时候timeout开始计时。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:217
+msgid ""
+"如果timeout时间到了，但还没有任何输入，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何数据返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:219
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法的等待时间为PinPad的超时时间，在超时时间内会有数据返回或取消。如果到了PinPad的超时时间，没有任何输入，按timeout超时处理。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:221
+msgid "如果timeout是\\ :java:ref:`IMMEDIATE <TimeConstants.IMMEDIATE>`\\ ，方法会马上返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:223
+msgid "本方法会正确响应 \\ :java:ref:`cancelRequest()`\\ 方法来取消操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:225
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:346
+msgid "密钥和算法配置信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:226
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:347
+msgid "用户卡号的ASCII字符串。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:227
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:348
+msgid "是否语音提示用户。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:228
+msgid "本操作的动作监听者。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:229
+msgid "等待用户输入的时间。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:233
+msgid "open"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:238
+msgid "打开某个逻辑ID的PIN输入设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:240
+msgid "设备逻辑ID，"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:244
+msgid "setPINLength"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:249
+msgid "设置可输入PIN的长度限制。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:251
+msgid "最短有效PIN长度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:252
+msgid "最长有效PIN长度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:255
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:271
+msgid "showText"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:260
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:276
+msgid "在PIN输入设备上显示文本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:262
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:278
+msgid "行号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:263
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:279
+msgid "本行显示的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:264
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:281
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。 或者以下原因："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:268
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:285
+msgid "\\ ``message``\\ 太长"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:280
+msgid "是否提示声音。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:288
+msgid "updateMasterKey"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:293
+msgid "更新主密钥。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:295
+msgid "主密钥索引"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:296
+msgid "原主密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:297
+msgid "新主密钥"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:301
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:318
+msgid "updateUserKey"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:306
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:323
+msgid "修改用户密钥，一般用于主密钥/会话密钥算法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:308
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:325
+msgid "用来更新的用户密钥数据是密文，是由给定的主密钥加密，因此更新时需要指定所使用的主密钥索引。 用户密钥约定使用的是3des算法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:310
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:327
+msgid "用来解密的主密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:311
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:328
+msgid ""
+"需要更新的用户密钥类型：\\ :java:ref:`USER_KEY_ID_PIN`\\ , \\ "
+":java:ref:`USER_KEY_ID_MAC`\\ , \\ :java:ref:`USER_KEY_ID_DATA`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:312
+msgid "被主密钥加过密的用户密钥数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:313
+msgid ""
+"校验位校验类型：\\ :java:ref:`CHECK_TYPE_NONE`\\ , \\ "
+":java:ref:`CHECK_TYPE_CUP`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:314
+msgid "校验pinpad。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:329
+msgid "被主密钥加过密的用户密钥数据 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:333
+msgid "waitForPinBlock"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:338
+msgid ""
+"本方法是上述对应的 \\ "
+":java:ref:`listenForPinBlock(KeyInfo,String,boolean,OperationListener,int)`\\"
+" 方法的同步版本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:340
+msgid "只有当超时发生或者操作正常完成，本次调用才会返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:342
+msgid "由于带有超时，本方法会响应\\ :java:ref:`cancelRequest()`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:344
+msgid ""
+"如果超时发生，会返回这个操作结果： \\ :java:ref:`ERR_TIMEOUT "
+"<OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何数据返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:349
+msgid "等待用户输入PIN的时间。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDevice.rst:350
+msgid "PIN block的密文。"
+msgstr ""
+

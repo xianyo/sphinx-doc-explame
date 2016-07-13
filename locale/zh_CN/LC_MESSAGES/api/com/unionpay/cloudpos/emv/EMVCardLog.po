@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:2
+msgid "EMVCardLog"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:10
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:12
+msgid "getATC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:17
+msgid "获取交易计数器（9F36）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:19
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:209
+msgid "交易计数器（9F36）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:22
+msgid "getAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:27
+msgid "获取交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:29
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:229
+msgid "交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:32
+msgid "getCountryCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:37
+msgid "获取国家代码（9F1A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:39
+msgid "国家代码（9F1A） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:42
+msgid "getCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:47
+msgid "获取货币代码（5F2A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:49
+msgid "货币代码（5F2A） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:52
+msgid "getMerchName"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:57
+msgid "获取商户名称（9F4E）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:59
+msgid "商户名称（9F4E） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:62
+msgid "getOtherAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:67
+msgid "获取其它金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:69
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:319
+msgid "其它金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:72
+msgid "getOtherTLVLog"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:77
+msgid "获取本结构中未定义的其它数据元按照TLV 列表的格式保存在TLV中。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:79
+msgid "本结构中未定义的其它数据元按照TLV 列表的格式保存在TLV中 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:82
+msgid "getTransDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:87
+msgid "获取交易日期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:89
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:359
+msgid "交易日期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:92
+msgid "getTransTime"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:97
+msgid "获取交易时间。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:99
+msgid "交易时间 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:102
+msgid "getTransType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:107
+msgid "获取交易类型（9C）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:109
+msgid "交易类型（9C） 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:112
+msgid "isATCExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:117
+msgid "获取交易计数器存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:119
+msgid "交易计数器存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:122
+msgid "isAmountExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:127
+msgid "获取交易金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:129
+msgid "交易金额存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:132
+msgid "isCountryCodeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:137
+msgid "获取国家代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:139
+msgid "国家代码存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:142
+msgid "isCurrencyExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:147
+msgid "获取货币代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:149
+msgid "货币代码存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:152
+msgid "isDateExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:157
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:289
+msgid "获取交易日期（YYMMDD）存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:159
+msgid "获取交易日期（YYMMDD）存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:162
+msgid "isMerchNameExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:167
+msgid "获取商户名称存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:169
+msgid "商户名称存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:172
+msgid "isOtherAmountExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:177
+msgid "获取其它金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:179
+msgid "其它金额存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:182
+msgid "isTimeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:187
+msgid "获取交易时间存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:189
+msgid "交易时间存在标识 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:192
+msgid "isTransTypeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:197
+msgid "获取交易类型存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:199
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:389
+msgid "交易类型存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:202
+msgid "setATC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:207
+msgid "设置交易计数器（9F36）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:212
+msgid "setATCExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:217
+msgid "设置交易计数器存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:219
+msgid "交易计数器存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:222
+msgid "setAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:227
+msgid "设置交易金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:232
+msgid "setAmountExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:237
+msgid "设置交易金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:239
+msgid "交易金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:242
+msgid "setCountryCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:247
+msgid "设置国家代码（9F1A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:249
+msgid "国家代码（9F1A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:252
+msgid "setCountryCodeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:257
+msgid "设置国家代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:259
+msgid "国家代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:262
+msgid "setCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:267
+msgid "设置货币代码（5F2A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:269
+msgid "货币代码（5F2A）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:272
+msgid "setCurrencyExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:277
+msgid "设置货币代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:279
+msgid "货币代码存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:282
+msgid "setDateExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:287
+msgid "设置获取交易日期（YYMMDD）存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:292
+msgid "setMerchName"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:297
+msgid "设置商户名称（9F4E）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:299
+msgid "商户名称（9F4E）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:302
+msgid "setMerchNameExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:307
+msgid "设置商户名称存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:309
+msgid "商户名称存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:312
+msgid "setOtherAmount"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:317
+msgid "设置其它金额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:322
+msgid "setOtherAmountExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:327
+msgid "设置其它金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:329
+msgid "其它金额存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:332
+msgid "setOtherTLVLog"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:337
+msgid "设置本结构中未定义的其它数据元按照TLV 列表的格式保存在TLV中。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:339
+msgid "本结构中未定义的其它数据元按照TLV 列表的格式保存在TLV中"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:342
+msgid "setTimeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:347
+msgid "设置交易时间存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:349
+msgid "交易时间存在标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:352
+msgid "setTransDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:357
+msgid "设置交易日期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:362
+msgid "setTransTime"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:367
+msgid "设置交易时间。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:369
+msgid "交易时间。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:372
+msgid "setTransType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:377
+msgid "设置交易类型（9C）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:379
+msgid "交易类型（9C）。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:382
+msgid "setTransTypeExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCardLog.rst:387
+msgid "设置交易类型存在标识。"
+msgstr ""
+

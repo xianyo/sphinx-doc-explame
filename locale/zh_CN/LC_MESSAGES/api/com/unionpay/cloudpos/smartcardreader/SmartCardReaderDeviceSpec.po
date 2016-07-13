@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:4
+msgid "SmartCardReaderDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:11
+msgid "\\ **SmartCardReaderDeviceSpec**\\ 定义了对SmartCard读卡器的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:13
+msgid "可以得到终端中关于接触式IC卡阅读器设备定义的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:16
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:18
+msgid "canRemovable"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:23
+msgid "是否支持中断插入和移除卡片操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:25
+msgid "打开IC卡读卡器的设备编号，0对应底部的插槽，1、2、3对应终端背面的PSAM卡槽"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:26
+msgid "\\ ``true``\\  支持,\\ ``false``\\  不支持，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:29
+msgid "getCounts"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:34
+msgid "返回有多少个卡槽。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderDeviceSpec.rst:36
+msgid "卡槽数量，不支持返回0"
+msgstr ""
+

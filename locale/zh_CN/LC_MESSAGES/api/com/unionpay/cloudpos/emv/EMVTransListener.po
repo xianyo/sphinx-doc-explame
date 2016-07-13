@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:4
+msgid "EMVTransListener"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:11
+msgid "EMV交易监听器，应用通过监听器得到需要的数据，处理确认之后，通过返回值，告诉EMV流程进入下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:14
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:16
+msgid "onCardHolderPwd"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:21
+msgid "输入密码，由应用设置结果及脱机密码返回，EMVSDK实现判断返回值，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:23
+msgid "是否联机交易。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:24
+msgid "脱机密码剩余次数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:25
+msgid "PINResult。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:27
+msgid "**See also:** :java:ref:`PINResult`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:30
+msgid "onCertVerfiy"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:35
+msgid "身份认证，由应用设置结果返回值，EMVSDK实现判断返回值，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:37
+msgid "证件类型。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:38
+msgid "证件内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:39
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:50
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:60
+msgid ""
+"0（\\ :java:ref:`EMVConstants.App_Confirm_OK`\\ ） 确认； -1（\\ "
+":java:ref:`EMVConstants.App_Confirm_Cancel`\\ ）：取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:42
+msgid "onConfirmCardNo"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:47
+msgid "确认卡号，由应用设置结果返回值，EMVSDK实现判断返回值，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:49
+msgid "待确认卡号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:53
+msgid "onConfirmEC"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:58
+msgid "确认使用电子现金，由应用设置结果返回值，EMVSDK实现判断返回值，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:63
+msgid "onOnlineProc"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:68
+msgid "联机交易，由应用设置联机结果，EMVSDK实现判断联机结果，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:70
+msgid "OnlineResult。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:72
+msgid "**See also:** :java:ref:`OnlineResult`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:75
+msgid "onTransResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:80
+msgid "交易结果，应用获得交易的返回结果。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:82
+msgid ""
+"0（\\ :java:ref:`EMVConstants.Process_Result_Approve`\\ ）：批准；1（\\ "
+":java:ref:`EMVConstants.Process_Result_Refuse`\\ ）：拒绝。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:86
+msgid "onWaitAppSelect"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:91
+msgid "等待应用选择，EMVSDK实现判断返回值，进入流程下一步。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:93
+msgid "EMV底层返回应用列表集合。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:94
+msgid "是否第一次选择应用。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVTransListener.rst:95
+msgid ""
+">=0所选择的应用索引；-1（\\ :java:ref:`EMVConstants.App_Confirm_Cancel`\\ ）： 取消； "
+"-2（\\ :java:ref:`EMVConstants.App_Confirm_Failure`\\ ）：失败。"
+msgstr ""
+

@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:4
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:54
+msgid "KeyInfo"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:11
+msgid "为后续的加密操作选择密钥和算法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:14
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:16
+msgid "algorithm"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:21
+msgid ""
+"算法：algorithm 具体定义参考\\ :java:ref:`ALG_DES <AlgorithmConstants>`\\  or \\ "
+":java:ref:`ALG_3DES <AlgorithmConstants>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:24
+msgid "keyID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:29
+msgid "密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:31
+msgid ""
+"如果在密钥类型是主密钥/会话密钥\\ :java:ref:`KEY_TYPE_MK_SK <PINPadDevice>`\\ "
+"情况下，只能使用以下常量：\\ :java:ref:`USER_KEY_ID_PIN <PINPadDevice>`\\ , \\ "
+":java:ref:`USER_KEY_ID_MAC <PINPadDevice>`\\ ，\\ "
+":java:ref:`USER_KEY_ID_DATA <PINPadDevice>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:33
+msgid "如果密钥类型是其他三种，表示选定的密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:36
+msgid "keyType"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:41
+msgid ""
+"密钥类型：\\ :java:ref:`KEY_TYPE_DUKPT <PINPadDevice>`\\ , \\ "
+":java:ref:`KEY_TYPE_TDUKPT <PINPadDevice>`\\ , \\ "
+":java:ref:`KEY_TYPE_MK_SK <PINPadDevice>`\\ , \\ :java:ref:`KEY_TYPE_FIX "
+"<PINPadDevice>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:44
+msgid "masterKeyID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:49
+msgid ""
+"主密钥索引[0x00, ..., 0x09]，仅在密钥类型是主密钥/会话密钥\\ :java:ref:`KEY_TYPE_MK_SK "
+"<PINPadDevice>`\\ 的前提下有效"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/KeyInfo.rst:52
+msgid "Constructors"
+msgstr ""
+

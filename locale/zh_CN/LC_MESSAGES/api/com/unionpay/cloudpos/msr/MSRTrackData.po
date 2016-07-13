@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:2
+msgid "MSRTrackData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:9
+msgid "磁道数据对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:12
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:14
+msgid "LRC_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:19
+msgid "本磁道LRC错误。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:21
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:31
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:41
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:51
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:71
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:81
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:91
+msgid "该常量通过\\ ``getTrackError()``\\ 返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:24
+msgid "NON_SPECIFIC_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:29
+msgid "不明原因错误。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:34
+msgid "NO_DATA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:39
+msgid "本磁道没有数据信息体，只有起始位。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:44
+msgid "NO_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:49
+msgid "没有错误。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:54
+msgid "NO_STRIPE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:59
+msgid "本磁道没有任何数据，包括起始位。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:61
+msgid "该常量通过\\ ``getTrackError()``\\ 返回 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:64
+msgid "PARITY_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:69
+msgid "本磁道奇偶校验错误。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:74
+msgid "READ_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:79
+msgid "本磁道读错误。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:84
+msgid "TRACK_NOT_SUPPORTED"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:89
+msgid "不支持的磁道。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:94
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:96
+msgid "getTrackData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:101
+msgid "返回磁道信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:103
+msgid "\\ *磁道信息参考：ISO 7811-2 and JIS X 6302.*\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:105
+msgid "磁道信息数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:108
+msgid "getTrackError"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:113
+msgid "返回本磁道的错误标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:115
+msgid "上述定义的磁道错误常量。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRTrackData.rst:117
+msgid ""
+"**See also:** :java:ref:`.NO_ERROR`, :java:ref:`.NON_SPECIFIC_ERROR`, "
+":java:ref:`.TRACK_NOT_SUPPORTED`, :java:ref:`.READ_ERROR`, "
+":java:ref:`.PARITY_ERROR`, :java:ref:`.LRC_ERROR`, :java:ref:`.NO_DATA`, "
+":java:ref:`.NO_STRIPE`"
+msgstr ""
+

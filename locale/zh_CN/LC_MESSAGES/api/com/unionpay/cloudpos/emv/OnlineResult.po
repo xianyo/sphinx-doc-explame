@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:2
+msgid "OnlineResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:10
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:12
+msgid "getField39"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:17
+msgid "获取39域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:19
+msgid "39域内容 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:22
+msgid "getField55"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:27
+msgid "获取55域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:29
+msgid "55域内容 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:32
+msgid "getResultCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:37
+msgid "获取联机交易结果值。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:39
+msgid "联机交易结果值 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:42
+msgid "setField39"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:47
+msgid "设置39域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:49
+msgid "39域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:52
+msgid "setField55"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:57
+msgid "设置55域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:59
+msgid "55域内容。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:62
+msgid "setResultCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:67
+msgid "设置联机交易结果值。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/OnlineResult.rst:69
+msgid ""
+"联机交易结果值 , 0（\\ :java:ref:`EMVConstants.App_Confirm_OK`\\ ）:成功；-1（\\ "
+":java:ref:`EMVConstants.App_Confirm_Cancel`\\ ）：取消； -2（\\ "
+":java:ref:`EMVConstants.App_Confirm_Failure`\\ ）：失败。"
+msgstr ""
+

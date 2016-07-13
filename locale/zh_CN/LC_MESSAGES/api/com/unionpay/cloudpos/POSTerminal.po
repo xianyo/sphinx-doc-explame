@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:8
+msgid "POSTerminal"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:15
+msgid "设备管理器\\ **POSTerminal**\\  是获得每个设备的入口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:17
+msgid "获取该对象不能使用new方法，可以通过getInstance方法获得。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:20
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:22
+msgid "POS_TERMINAL_CLASS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:27
+msgid "系统属性"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:30
+msgid "androidContext"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:36
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:38
+msgid "getDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:43
+msgid "返回设备对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:46
+msgid "Device 设备对象"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:49
+msgid "getDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:54
+msgid "返回设备详细描述"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:56
+msgid "DeviceSpec 设备详细描述"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:59
+msgid "getInstance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:64
+msgid "返回设备管理器的实例对象。终端系统默认的className是：“com.unionpay.cloudpos.impl.POSTerminalImpl”"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:66
+msgid ""
+"可以通过System.setProperty(POSTerminal.POS_TERMINAL_CLASS, "
+"\"com.unionpay.cloudpos.impl.POSTerminalImpl\")设置系统属性。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:68
+msgid "如果未设置，将取默认名称。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:70
+msgid "设备管理器"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:73
+msgid "getTerminalSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:78
+msgid "返回终端的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:80
+msgid "TerminalSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:82
+msgid "**See also:** :java:ref:`TerminalSpec`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:85
+msgid "isDeviceExist"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:90
+msgid "判断设备是否存在。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:93
+msgid "boolean"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:96
+msgid "listDevices"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:101
+msgid "列出所有设备名称标识。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/POSTerminal.rst:103
+msgid "String[]"
+msgstr ""
+

@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:2
+msgid "PINResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:10
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:12
+msgid "getPindata"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:17
+msgid "获取脱机密码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:19
+msgid "脱机密码 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:22
+msgid "getResultCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:27
+msgid "获取输入密码结果值。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:29
+msgid "输入密码结果值 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:32
+msgid "setPindata"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:37
+msgid "设置脱机密码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:39
+msgid "脱机密码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:42
+msgid "setResultCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:47
+msgid "设置输入密码结果值。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/PINResult.rst:49
+msgid ""
+"输入密码结果值 , 0（\\ :java:ref:`EMVConstants.PIN_Input_Success`\\ ）:输入成功；1（\\ "
+":java:ref:`EMVConstants.PIN_Input_Bypass`\\ ）：bypass； -1（\\ "
+":java:ref:`EMVConstants.PIN_Input_Cancel`\\ ）：取消；-2（\\ "
+":java:ref:`EMVConstants.PIN_Input_Failure`\\ ）：失败； -3（\\ "
+":java:ref:`EMVConstants.PIN_Input_Timeout`\\ ）：超时."
+msgstr ""
+

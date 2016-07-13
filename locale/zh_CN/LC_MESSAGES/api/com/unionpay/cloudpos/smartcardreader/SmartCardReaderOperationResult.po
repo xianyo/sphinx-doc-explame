@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:12
+msgid "SmartCardReaderOperationResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:19
+msgid "\\ ``SmartCardReaderOperationResult``\\ 是被SmartCard读卡设备产生，用来返回得到的卡对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:21
+msgid ""
+"\\ :java:ref:`getResultCode() <OperationResult.getResultCode()>`\\ "
+"方法继承至\\ :java:ref:`OperationResult`\\ 的对应方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:23
+msgid ""
+"这里通过\"ERR_\"设置了本设备相关的自定义错误，可以在\\ :java:ref:`getResultCode（） "
+"<OperationResult.getResultCode()>`\\ 返回错误或正确的操作结果。 通过\\ "
+":java:ref:`getCard() <SmartCardReaderOperationResult.getCard()>`\\ "
+"返回SmartCard卡数据对象。 得到卡对象后，应用程序可以自行区分不同类别的卡，进行卡的后续操作。 一般返回的卡类型为\\ "
+":java:ref:`CPUCard <CPUCard>`\\ 或者\\ :java:ref:`SLE4442Card "
+"<SLE4442Card>`\\ 两种。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:26
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:28
+msgid "getCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:33
+msgid "返回卡。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:35
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:36
+msgid "卡对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/smartcardreader/SmartCardReaderOperationResult.rst:38
+msgid "**See also:** :java:ref:`CPUCard`, :java:ref:`SLE4442Card`"
+msgstr ""
+

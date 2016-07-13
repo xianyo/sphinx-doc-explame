@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:4
+msgid "LEDDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:11
+msgid "\\ **LEDDeviceSpec**\\ 定义了对LED的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:13
+msgid "可以得到终端中关于LED定义的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:16
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:18
+msgid "BLUE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:24
+msgid "GREEN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:30
+msgid "RED"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:36
+msgid "WHITE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:42
+msgid "YELLOW"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:48
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:50
+msgid "canQuickBlink"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:55
+msgid "是否支持快速闪烁。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:57
+msgid "500ms闪烁一次"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:59
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:72
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:83
+msgid "设备逻辑ID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:60
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:73
+msgid "\\ ``true``\\  支持， \\ ``false``\\  不支持，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:63
+msgid "canSlowBlink"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:68
+msgid "是否支持慢速闪烁。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:70
+msgid "1s闪烁一次"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:76
+msgid "getColors"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:81
+msgid "返回LED设备的颜色。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:84
+msgid "int 颜色，参数错误及不支持返回null."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:87
+msgid "getCounts"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:92
+msgid "返回可以操作的LED灯数量。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDeviceSpec.rst:94
+msgid "返回LED灯的数量。不支持返回0."
+msgstr ""
+

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:4
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:16
+msgid "Format"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:11
+msgid "打印格式根接口，程序定义的打印格式必须实现该接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:14
+msgid "Constructors"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:24
+msgid "clear"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:29
+msgid "清除所有打印格式."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:32
+msgid "getParameter"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:37
+msgid "返回打印格式."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:39
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:50
+msgid "传入主键"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:40
+msgid "打印格式"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:43
+msgid "remove"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:48
+msgid "移除某一个参数"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:53
+msgid "setParameter"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:58
+msgid "以键-值对的方式设置打印格式."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:60
+msgid "目前定义的键-值如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:64
+msgid "打印浓度（density）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:66
+msgid "对应的值为：\\ ``light``\\ (淡)，\\ ``medium``\\ (中)，\\ ``dark``\\ (深)。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:68
+msgid "对字符，图形及条码打印都有效。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:70
+msgid "加粗（bold）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:72
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:78
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:84
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:108
+msgid ""
+"对应的值为：\\ ``true``\\ (是)，\\ ``false``\\ (否)。其中，\\ ``true``\\ ，\\ "
+"``false``\\ ，不区分大小写。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:74
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:80
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:86
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:92
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:98
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:110
+msgid "对字符打印有效。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:76
+msgid "反白（reverse）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:82
+msgid "上下倒置（inversion）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:88
+msgid "删除线（line-through）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:90
+msgid "对应的值为：\\ ``1``\\ (连续的删除线)，\\ ``2``\\ (断开的删除线)。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:94
+msgid "大小（size）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:96
+msgid ""
+"对应的值为：\\ ``extra-small``\\ (特小)，\\ ``small``\\ (小)，\\ ``medium``\\ (中)，\\"
+" ``large``\\ (大)，\\ ``extra-large``\\ (特大)。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:100
+msgid "对齐方式（align）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:102
+msgid "对应的值为：\\ ``left``\\ (靠左)，\\ ``right``\\ (靠右)，\\ ``center``\\ (居中)。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:104
+msgid "对字符及图形打印有效。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:106
+msgid "斜体（italic）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:112
+msgid "HRI字符的打印位置（HRI-location）"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:114
+msgid ""
+"对应的值为：\\ ``none``\\ (不打印)，\\ ``up``\\ (条码上方)，\\ ``down``\\ (条码下方)，\\ "
+"``up-down``\\ (条码上下方)。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:116
+msgid "对条码打印有效。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:118
+msgid "打印格式主键"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/Format.rst:119
+msgid "打印格式值"
+msgstr ""
+

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:4
+msgid "MifareCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:11
+msgid "非接触式Mifare卡的接口定义。符合MIFAREI国际标准，是memory卡的一种。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:14
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:16
+msgid "decreaseValue"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:21
+msgid "设置电子钱包的数据值，做减法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:23
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:37
+msgid "分区号."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:24
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:38
+msgid "block索引号."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:25
+msgid "钱包数据，减去值."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:26
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:40
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:53
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:66
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:81
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:96
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:110
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:123
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:27
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:41
+msgid "\\ ``true``\\  成功，\\ ``false``\\  失败."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:30
+msgid "increaseValue"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:35
+msgid "设置电子钱包的数据值，做加法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:39
+msgid "钱包数据，加值."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:44
+msgid "readBlock"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:49
+msgid "读取分区中某个block的数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:51
+msgid "分区ID。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:52
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:65
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:108
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:121
+msgid "block索引号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:54
+msgid "block的数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:57
+msgid "readValue"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:62
+msgid "从电子钱包中读取钱包数据和用户数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:64
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:107
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:120
+msgid "分区号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:67
+msgid "钱包数据及用户数据 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:70
+msgid "verifyKeyA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:75
+msgid "验证给定分区的Key A。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:77
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:92
+msgid "无论验证失败还是成功，前面卡片被打开的分区均会被关闭。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:79
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:94
+msgid "Mifare卡的分区号。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:80
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:95
+msgid "6个字节的key。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:82
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:97
+msgid "\\ ``true``\\  成功，\\ ``false``\\  失败。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:85
+msgid "verifyKeyB"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:90
+msgid "验证给定分区的Key B。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:100
+msgid "writeBlock"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:105
+msgid "写某个分区的某个block。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:109
+msgid "数据流。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:113
+msgid "writeValue"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:118
+msgid "往电子钱包里面写入钱包数据和用户数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MifareCard.rst:122
+msgid "钱包数据及用户数据."
+msgstr ""
+

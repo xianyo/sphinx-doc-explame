@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:10
+msgid "MSRUtils"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:17
+msgid "\\ **MSRUtils**\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:19
+msgid "集成了对磁条卡阅读器设备的使用，用户在不关心接口含义的情况下，可以调用waitForSwipe方法，然后继续刷卡操作就可以了。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:24
+msgid "waitForSwipe"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:29
+msgid ""
+"在方法中先调用\\ :java:ref:`open() <MSRDevice.open()>`\\ ，然后调用\\ "
+":java:ref:`waitForSwipe(int) <MSRDevice.waitForSwipe(int)>`\\  等待用户刷卡。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:31
+msgid "只有当超时发生或者操作正常完成，本次调用才会返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:33
+msgid ""
+"由于带有超时，本方法会响应\\ :java:ref:`cancelRequest() <MSRDevice.cancelRequest()>`\\"
+" 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:35
+msgid "如果超时发生，会返回null，同时关闭该设备。 如果返回MSROperationResult，开发者后续自行关闭该设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:37
+msgid ""
+"最大等待时间，通过时间常量设定\\ :java:ref:`SECOND <TimeConstants.SECOND>`\\ ,\\ "
+":java:ref:`MilliSECOND <TimeConstants.MilliSECOND>`\\ , \\ "
+":java:ref:`FOREVER <TimeConstants.FOREVER>`\\ ,\\ :java:ref:`IMMEDIATE "
+"<TimeConstants.IMMEDIATE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/msr/MSRUtils.rst:39
+msgid "操作结果。"
+msgstr ""
+

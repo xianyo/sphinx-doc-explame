@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:4
+msgid "EMVCAPKParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:12
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:14
+msgid "getArithInd"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:19
+msgid "获取RSA算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:21
+msgid "RSA算法标志 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:24
+msgid "getCheckSum"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:29
+msgid "获取密钥校验和。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:31
+msgid "密钥校验和 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:34
+msgid "getExpDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:39
+msgid "获取有效期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:41
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:131
+msgid "有效期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:44
+msgid "getExponent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:49
+msgid "获取指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:51
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:141
+msgid "指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:54
+msgid "getExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:59
+msgid "获取扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:61
+msgid "扩展域 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:64
+msgid "getHashInd"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:69
+msgid "获取HASH算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:71
+msgid "HASH算法标志 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:74
+msgid "getKeyID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:79
+msgid "获取密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:81
+msgid "密钥索引 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:84
+msgid "getModul"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:89
+msgid "获取模。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:91
+msgid "模 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:94
+msgid "getRID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:99
+msgid "获取应用注册服务ID。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:101
+msgid "应用注册服务ID 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:104
+msgid "setArithInd"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:109
+msgid "设置RSA算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:111
+msgid "RSA算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:114
+msgid "setCheckSum"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:119
+msgid "设置密钥校验和。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:121
+msgid "密钥校验和。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:124
+msgid "setExpDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:129
+msgid "设置有效期。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:134
+msgid "setExponent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:139
+msgid "设置指数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:144
+msgid "setExtField"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:149
+msgid "设置扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:151
+msgid "扩展域。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:154
+msgid "setHashInd"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:159
+msgid "设置HASH算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:161
+msgid "HASH算法标志。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:164
+msgid "setKeyID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:169
+msgid "设置密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:171
+msgid "密钥索引。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:174
+msgid "setModul"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:179
+msgid "设置模。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:181
+msgid "模。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:184
+msgid "setRID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:189
+msgid "设置应用注册服务ID。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVCAPKParam.rst:191
+msgid "应用注册服务ID。"
+msgstr ""
+

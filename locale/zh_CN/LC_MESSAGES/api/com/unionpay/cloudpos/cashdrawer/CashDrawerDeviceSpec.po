@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/cashdrawer/CashDrawerDeviceSpec.rst:4
+msgid "CashDrawerDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/cashdrawer/CashDrawerDeviceSpec.rst:11
+msgid "\\ **CashDrawerDeviceSpec**\\ 定义了对钱箱设备的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/cashdrawer/CashDrawerDeviceSpec.rst:13
+msgid "此设备暂无详细描述，"
+msgstr ""
+

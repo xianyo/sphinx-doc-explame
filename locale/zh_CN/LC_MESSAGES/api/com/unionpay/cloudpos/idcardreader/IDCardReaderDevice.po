@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:12
+msgid "IDCardReaderDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:19
+msgid "\\ **IDCardReaderDevice**\\ 定义了所有身份证读取身份证的接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:21
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:28
+msgid "其中，\"cloudpos.device.idcard\"是标识身份证设备的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:30
+msgid ""
+"身份读取设备对象主要进行身份证卡读取操作。其中等卡都包括同步和异步两种方式。同步方式会将主线程锁定，直到有结果返回，超时或者被取消。 "
+"异步方式不会锁定主线程，当有结果时，会回调监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:32
+msgid "为了正常访问身份证读取设备，请在Android Manifest文件中设置身份证读取设备访问权限，具体如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:38
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:41
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:43
+msgid "listenForCardPresent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:48
+msgid "启动一次扫描身份证的过程。 一次只能查找一张身份证。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:50
+msgid "本方法会正确响应 \\ :java:ref:`cancelRequest()`\\ 方法来取消操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:52
+msgid ""
+"本操作是个异步调用。当找到身份证后，结果通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法 返回。 "
+"通常程序必须定义自己的OperationListener，在回调函数handleResult()中对返回结果进行处理。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:63
+msgid "方法通过设置timeout来决定最多等待多长时间。请求开始执行的时候timeout开始计时。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:65
+msgid ""
+"如果timeout时间到了，但还没有扫描到卡，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:67
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法会一直等待卡，直到扫描到卡或取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:69
+msgid "如果timeout是\\ :java:ref:`IMMEDIATE <TimeConstants.IMMEDIATE>`\\ ，方法会马上返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:71
+msgid "操作监听者。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:72
+msgid ""
+"最大扫描时间，通过时间常量设定\\ :java:ref:`SECOND <TimeConstants.SECOND>`\\ ,\\ "
+":java:ref:`MilliSECOND <TimeConstants.MilliSECOND>`\\ , \\ "
+":java:ref:`FOREVER <TimeConstants.FOREVER>`\\ ,\\ :java:ref:`IMMEDIATE "
+"<TimeConstants.IMMEDIATE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:73
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:84
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:101
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:76
+msgid "open"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:81
+msgid "打开某个逻辑ID的身份证读取设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:83
+msgid "模块的逻辑ID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:87
+msgid "waitForCardPresent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:92
+msgid ""
+"本方法是上述对应的 \\ :java:ref:`listenForCardPresent(OperationListener,int)`\\ "
+"方法的同步版本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:94
+msgid "只有当超时发生或者操作正常完成，本次调用才会返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:96
+msgid "由于带有超时，本方法会响应\\ :java:ref:`cancelRequest()`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:98
+msgid ""
+"如果超时发生，会返回这个操作结果： \\ :java:ref:`ERR_TIMEOUT "
+"<OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:100
+msgid "最大扫描时间，通过时间常量设定。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCardReaderDevice.rst:102
+msgid "操作结果"
+msgstr ""
+

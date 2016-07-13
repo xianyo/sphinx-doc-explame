@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:14
+msgid "EMVDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:21
+msgid "\\ **EMVDevice**\\ 定义了对EMV的操作方法。任何具体的实现都必须实现这个接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:23
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:30
+msgid "其中，\"cloudpos.device.emv\"是标识EMV的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:32
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:35
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:37
+msgid "clearAIDParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:42
+msgid "清除AID参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:44
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:54
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:64
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:75
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:87
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:98
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:112
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:126
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:141
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:152
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:164
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:198
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:211
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:222
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:234
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:245
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:258
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:47
+msgid "clearCAPKParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:52
+msgid "清除公钥参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:57
+msgid "getAIDParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:62
+msgid "获取AID参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:65
+msgid "AIDParam List。List中的每个byte[]是一条TLV格式的参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:68
+msgid "getCAPKParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:73
+msgid "获取公钥参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:76
+msgid "公钥参数 List。List中的每个byte[]是一条TLV格式的参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:79
+msgid "getTLVList"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:84
+msgid "获取指定TAG列表数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:86
+msgid "tag列表。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:88
+msgid "byte[] TLV串。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:91
+msgid "getTermConfig"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:96
+msgid "获取终端设备参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:99
+msgid "EMVTermConfig 终端配置。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:102
+msgid "parseAIDParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:107
+msgid "解析AID参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:109
+msgid "传入TLV格式的AID参数，解析成EMVAIDParam."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:113
+msgid "EMVAIDParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:116
+msgid "parseCAPKParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:121
+msgid "解析公钥参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:123
+msgid "传入TLV格式的公钥参数，解析成EMVCAPKParam."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:127
+msgid "EMVAIDParam。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:130
+msgid "process"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:135
+msgid "处理EMV流程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:137
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:256
+msgid "结束检卡会取消之前的异步读卡，并关闭读卡设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:139
+msgid "EMV交易数据。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:140
+msgid "EMV交易监听器，应用通过监听器得到需要的数据，处理确认之后，通过返回值，告诉EMVSDK实现进入下一步流程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:144
+msgid "queryECBalance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:149
+msgid "查询电子现金余额流程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:151
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:163
+msgid ""
+"0（\\ :java:ref:`EMVConstants.Channel_Type_IC`\\ ）：接触式；1（\\ "
+":java:ref:`EMVConstants.Channel_Type_RF`\\ ）：非接触式。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:153
+msgid "Balance 电子现金余额。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:156
+msgid "queryLogRecord"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:161
+msgid "查询卡片交易记录流程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:165
+msgid "List 卡片交易记录。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:168
+msgid "readCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:173
+msgid ""
+"检卡流程，在这个流程中打开指定的卡，并进入等卡逻辑。如果检测到卡，通过listener通知给应用。 本操作是个异步调用，调用后立即返回。 "
+"当用户插卡或者挥卡后，结果通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:175
+msgid "通常程序必须定义自己的OperationListener，在回调函数handleResult()中对返回结果进行处理。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:186
+msgid "方法通过设置timeout来决定最多等待多长时间。请求开始执行的时候timeout开始计时。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:188
+msgid ""
+"如果timeout时间到了，但用户还没有刷卡，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:190
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法会一直等待刷卡，直到刷卡或取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:192
+msgid "如果timeout是\\ :java:ref:`IMMEDIATE <TimeConstants.IMMEDIATE>`\\ ，方法会马上返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:194
+msgid ""
+"最大等待时间，通过时间常量设定\\ :java:ref:`SECOND <TimeConstants.SECOND>`\\ ,\\ "
+":java:ref:`MilliSECOND <TimeConstants.MilliSECOND>`\\ , \\ "
+":java:ref:`FOREVER <TimeConstants.FOREVER>`\\ ,\\ :java:ref:`IMMEDIATE "
+"<TimeConstants.IMMEDIATE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:195
+msgid "是否打开IC卡设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:196
+msgid "是否打开非接卡设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:197
+msgid "操作监听者。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:200
+msgid ""
+"**See also:** :java:ref:`OperationListener.handleResult`, "
+":java:ref:`EMVCardReaderResult`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:203
+msgid "setAIDParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:208
+msgid "设置AID参数。这个参数必须TLV格式的一条参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:214
+msgid "setCAPKParam"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:219
+msgid "设置公钥参数。这个参数必须TLV格式的一条参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:221
+msgid "公钥参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:225
+msgid "setTLV"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:230
+msgid "设置TAG值。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:237
+msgid "setTermConfig"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:242
+msgid "配置终端设备参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:244
+msgid "终端配置。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:246
+msgid "是否设置成功。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:249
+msgid "stopReadCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/EMVDevice.rst:254
+msgid "结束检卡。"
+msgstr ""
+

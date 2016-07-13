@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:4
+msgid "PINPadDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:11
+msgid "\\ **PINPadDeviceSpec**\\ 定义了对PIN输入设备的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:13
+msgid "可以得到终端中关于PINPad的定义的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:16
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:18
+msgid "canGetRandom"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:23
+msgid "是否支持获取随机数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:25
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:36
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:59
+msgid "设备逻辑ID，默认1"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:26
+msgid "\\ ``true``\\  支持取随机数， \\ ``false``\\  不支持取随机数，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:29
+msgid "canShowText"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:34
+msgid "是否支持显示文本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:37
+msgid "\\ ``true``\\  支持， \\ ``false``\\  不支持，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:40
+msgid "getCounts"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:45
+msgid "可支持的最大PIN输入设备数量。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:47
+msgid "返回支持的数量，不支持返回0"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:50
+msgid "isInternal"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:55
+msgid "是否是内置PIN输入设备。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:57
+msgid "如果是内置，那么系统提供密码输入界面。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadDeviceSpec.rst:60
+msgid "\\ ``true``\\  内置PIN输入设备， \\ ``false``\\  外置PIN输入设备，参数错误及不支持也返回false."
+msgstr ""
+

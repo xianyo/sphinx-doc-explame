@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:12
+msgid "RFCardReaderDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:19
+msgid "\\ **RFCardReaderDevice**\\ 定义了所有非接触式IC卡阅读器的接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:21
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:28
+msgid "其中，\"cloudpos.device.contactlesscard\"是标识非接读卡器的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:30
+msgid ""
+"非接触式IC卡阅读器对象主要进行非接卡读卡操作。其中等卡及移卡都包括同步和异步两种方式。同步方式会将主线程锁定，直到有结果返回，超时或者被取消。 "
+"异步方式不会锁定主线程，当有结果时，会回调监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:32
+msgid "为了正常访问非接触式IC卡阅读器，请在Android Manifest文件中设置非接触式IC卡阅读器访问权限，具体如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:38
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:41
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:43
+msgid "MODE_AUTO"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:48
+msgid "自动模式"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:51
+msgid "MODE_FELICA"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:56
+msgid "Felica通讯模式: FeliCa®"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:59
+msgid "MODE_ISO14443_TYPE_A"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:64
+msgid "14443卡TYPE A模式: ISO/IEC 14443 Type A compliant"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:67
+msgid "MODE_ISO14443_TYPE_B"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:72
+msgid "14443卡TYP B模式: ISO/IEC 14443 Type B compliant"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:75
+msgid "MODE_ISO15693"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:80
+msgid "15693通讯模式: ISO/IEC 15693 compliant"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:83
+msgid "MODE_MIFARE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:88
+msgid "Mifare卡通讯模式: MIFARE®"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:91
+msgid "MODE_NFC_ACTIVE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:96
+msgid "NFC 主动通讯模式: ISO/IEC 18092 (ECMA 340: NFCIP-1)"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:99
+msgid "MODE_NFC_PASSIVE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:104
+msgid "NFC 被动通讯模式: ISO/IEC 18092 (ECMA 340: NFCIP-1)"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:107
+msgid "PARAM_NB_SLOT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:112
+msgid "放碰撞卡槽号"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:115
+msgid "PARAM_SPEED"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:120
+msgid "通讯速率"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:123
+msgid "RATE_106K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:128
+msgid "106 kbps 通讯速率，用于\\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:131
+msgid "RATE_1667K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:136
+msgid "1667 kbps 通讯速率，用于\\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:139
+msgid "RATE_212K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:144
+msgid "212 kbps 通讯速率，用于\\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:147
+msgid "RATE_3390K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:152
+msgid "3390 kbps 通讯速率，用于\\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:155
+msgid "RATE_424K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:160
+msgid "424 kbps 通讯速率，用于 \\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:163
+msgid "RATE_6670K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:168
+msgid "6670 kbps 通讯速率，用于\\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:171
+msgid "RATE_848K"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:176
+msgid "848 kbps 通讯速率，用于 \\ :java:ref:`PARAM_SPEED <PARAM_SPEED>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:179
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:181
+msgid "getMode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:186
+msgid "返回当前通讯模式。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:188
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:234
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:271
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:283
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:308
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:326
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:189
+msgid "以下常量："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:191
+msgid ""
+"\\ :java:ref:`MODE_AUTO <MODE_AUTO>`\\  \\ :java:ref:`MODE_NFC_PASSIVE "
+"<MODE_NFC_PASSIVE>`\\  \\ :java:ref:`MODE_NFC_ACTIVE <MODE_NFC_ACTIVE>`\\"
+"  \\ :java:ref:`MODE_ISO14443_TYPE_A <MODE_ISO14443_TYPE_A>`\\  \\ "
+":java:ref:`MODE_ISO14443_TYPE_B <MODE_ISO14443_TYPE_B>`\\  \\ "
+":java:ref:`MODE_ISO15693 <MODE_ISO15693>`\\  \\ :java:ref:`MODE_MIFARE "
+"<MODE_MIFARE>`\\  \\ :java:ref:`MODE_FELICA <MODE_FELICA>`\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:194
+msgid "getSpeed"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:199
+msgid "返回通讯速率参数："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:202
+msgid "listenForCardAbsent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:207
+msgid "监听卡片移除动作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:209
+msgid ""
+"本操作是个异步调用。当用户移除卡发生后，结果通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法 返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:211
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:248
+msgid "本方法会正确响应 \\ :java:ref:`cancelRequest()`\\ 方法来取消操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:213
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:250
+msgid "通常程序必须定义自己的OperationListener，在回调函数handleResult()中对返回结果进行处理。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:224
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:261
+msgid "方法通过设置timeout来决定最多等待多长时间。请求开始执行的时候timeout开始计时。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:226
+msgid ""
+"如果timeout时间到了，但用户还没有移除卡，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:228
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法会一直等待移除卡，直到移除卡或取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:230
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:267
+msgid "如果timeout是\\ :java:ref:`IMMEDIATE <TimeConstants.IMMEDIATE>`\\ ，方法会马上返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:232
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:269
+msgid "操作监听者。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:233
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:270
+msgid ""
+"最大等待时间，通过时间常量设定\\ :java:ref:`SECOND <TimeConstants.SECOND>`\\ ,\\ "
+":java:ref:`MilliSECOND <TimeConstants.MilliSECOND>`\\ , \\ "
+":java:ref:`FOREVER <TimeConstants.FOREVER>`\\ ,\\ :java:ref:`IMMEDIATE "
+"<TimeConstants.IMMEDIATE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:237
+msgid "listenForCardPresent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:242
+msgid "按照非接卡的通讯参数设定和模式设定，启动一次扫描非接卡的过程。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:244
+msgid ""
+"本操作是个异步调用。当找到非接卡后，结果通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法 返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:246
+msgid ""
+"根据底层定义只能返回一张卡片。结果可以通过 \\ "
+":java:ref:`RFCardReaderOperationResult.getCard()`\\ 获得。 "
+"如果读卡设备上放入多张卡片，返回错误：\\ :java:ref:`ERR_MULTI_CARD "
+"<RFCardReaderOperationResult.ERR_MULTI_CARD>`\\ ，不返回任何卡片。 本方法会按照\\ "
+":java:ref:`setSpeed(int) <setSpeed(int)>`\\ "
+"定义的参数扫描卡片。如果没有定义，本方法会按照读卡器默认参数扫描。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:263
+msgid ""
+"如果timeout时间到了，但还没有扫描到卡，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:265
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法会一直等待，直到扫描到卡或取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:274
+msgid "open"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:279
+msgid "打开某个逻辑ID的非接触式IC卡阅读器，并指定模式。只有符合模式的卡会被发现。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:281
+msgid "读卡器逻辑ID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:282
+msgid "通讯模式"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:286
+msgid "setSpeed"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:291
+msgid "设置通讯速率参数："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:294
+msgid "waitForCardAbsent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:299
+msgid ""
+"本方法是上述对应的 \\ :java:ref:`listenForCardAbsent(OperationListener,int)`\\ "
+"方法的同步版本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:301
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:319
+msgid "只有当超时发生或者操作正常完成，本次调用才会返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:303
+msgid "由于带有超时，本方法会响应\\ :java:ref:`cancelRequest()`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:305
+msgid ""
+"如果超时发生，会返回这个操作结果： \\ :java:ref:`ERR_TIMEOUT "
+"<OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:307
+msgid "最大等待时间，通过时间常量设定。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:309
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:327
+msgid "操作结果"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:312
+msgid "waitForCardPresent"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:317
+msgid ""
+"本方法是上述对应的 \\ :java:ref:`listenForCardPresent(OperationListener,int)`\\ "
+"方法的同步版本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:321
+msgid "由于带有超时，本方法会响应\\ :java:ref:`cancelRequest()`\\ 方法"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:323
+msgid ""
+"如果超时发生，会返回操作结果为 \\ :java:ref:`ERR_TIMEOUT "
+"<OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何卡片返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDevice.rst:325
+msgid "最大扫描时间，通过时间常量设定。"
+msgstr ""
+

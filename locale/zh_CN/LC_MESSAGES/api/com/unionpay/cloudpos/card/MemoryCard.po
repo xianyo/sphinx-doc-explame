@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/card/MemoryCard.rst:2
+msgid "MemoryCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MemoryCard.rst:9
+msgid "\\ **MemoryCard**\\ 接口提供了Memory卡服务的通用定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MemoryCard.rst:11
+msgid "这里没有具体的接口定义，仅用于分类。"
+msgstr ""
+

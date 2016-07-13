@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:12
+msgid "RFCardReaderOperationResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:19
+msgid "\\ ``RFCardReaderOperationResult``\\ 是被非接卡读卡设备产生，用来返回非接卡的操作结果"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:21
+msgid ""
+"\\ :java:ref:`getResultCode() <OperationResult.getResultCode()>`\\ "
+"方法继承至\\ :java:ref:`OperationResult <OperationResult>`\\ 的对应方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:23
+msgid ""
+"这里通过\"ERR_\"设置了本设备相关的自定义错误，可以在\\ :java:ref:`getResultCode（） "
+"<OperationResult.getResultCode()>`\\ 返回。 通过\\ :java:ref:`getCard() "
+"<RFCardReaderOperationResult.getCard()>`\\ 返回非接卡数据对象。 "
+"得到卡对象后，应用程序可以自行区分不同类别的卡，进行卡的后续操作。 一般返回的卡类型为\\ :java:ref:`CPUCard "
+"<CPUCard>`\\ ,\\ :java:ref:`MifareCard <MifareCard>`\\ ,\\ "
+":java:ref:`MifareUltralightCard <MifareUltralightCard>`\\ , 其中后两种属于\\ "
+"``MemoryCard``\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:26
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:28
+msgid "ERR_CARD_UNREACHABLE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:33
+msgid "卡无法通讯"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:36
+msgid "ERR_COMMUNICATION"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:41
+msgid "发生通讯错误"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:44
+msgid "ERR_MULTI_CARD"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:49
+msgid "多张卡片被放入非接触式IC卡阅读器"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:52
+msgid "ERR_PROTOCOL"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:57
+msgid "通讯协议错误"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:60
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:62
+msgid "getCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:67
+msgid "返回扫描到的卡片。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:69
+msgid "扫描到的非接卡片"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderOperationResult.rst:71
+msgid ""
+"**See also:** :java:ref:`MifareCard`, :java:ref:`MifareUltralightCard`, "
+":java:ref:`CPUCard`"
+msgstr ""
+

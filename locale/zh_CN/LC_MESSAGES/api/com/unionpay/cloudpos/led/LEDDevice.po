@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:6
+msgid "LEDDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:13
+msgid "\\ **LEDDevice**\\ 定义了LED设备的接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:15
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:22
+msgid "其中，\"cloudpos.device.led\"是标识LED设备的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:24
+msgid "可以通过以下步骤对LED设备对象进行操作:"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:28
+msgid "通过前面的介绍，得到LED设备对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:29
+msgid "调用\\ :java:ref:`open(int)`\\ ,打开成功后，和对应的LED设备建立了连接。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:30
+msgid ""
+"调用\\ :java:ref:`turnOn()`\\ ,可以点亮该LED设备，直到程序调用了\\ :java:ref:`turnOff()`\\"
+" ,灭掉该LED设备，或者调用\\ :java:ref:`close()`\\ ,关闭某个LED设备 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:31
+msgid ""
+"有两种方法可以让某个LED灯闪烁，一为同步方法：\\ ``blink``\\ ,一为异步方法\\ ``startBlink``\\ "
+",程序可以自行选择闪烁方式。 值得注意的是，如果选择异步方法，可以通过调用\\ :java:ref:`cancelBlink()`\\ "
+"来取消闪烁。同步方法不能取消，会按照设定的开关时间及频次闪烁下去。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:32
+msgid "调用\\ :java:ref:`close()`\\ ,关闭某个LED设备 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:33
+msgid ""
+"父类接口\\ :java:ref:`cancelRequest()`\\ "
+",在这里是没有效果的。由于闪烁的异步方法不带有超时概念，和其他设备的异步监听响应机制不同。这里用\\ "
+":java:ref:`cancelBlink()`\\ 来取消异步闪烁。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:35
+msgid "为了正常访问LED设备，请在Android Manifest文件中设置LED访问权限，具体如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:41
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:44
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:46
+msgid "STATUS_OFF"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:51
+msgid "关闭状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:54
+msgid "STATUS_ON"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:59
+msgid "点亮状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:62
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:64
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:77
+msgid "blink"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:69
+msgid "使某个led灯进行闪烁，同步方法，不能被取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:71
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:85
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:141
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:155
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:168
+msgid "指定Led灯所需要打开的时间。单位ms。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:72
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:86
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:142
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:156
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:169
+msgid "指定Led灯所需要关闭的时间。单位ms。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:73
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:87
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:143
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:157
+msgid "周期，持续次数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:74
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:88
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:98
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:108
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:119
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:131
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:144
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:158
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:170
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:182
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:194
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:82
+msgid ""
+"使某个led灯进行闪烁，同步方法，不能被取消。 Led灯的颜色参见\\ :java:ref:`LEDDeviceSpec "
+"<LEDDeviceSpec>`\\ 颜色定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:84
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:154
+msgid "指定Led灯的颜色。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:91
+msgid "cancelBlink"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:96
+msgid "取消LED设备闪烁，调用该方法，当前闪烁的LED设备会停止闪烁。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:101
+msgid "getLogicalID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:106
+msgid "返回正在使用的 logicalID。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:109
+msgid "logicalID 设备逻辑ID。 -1 未打开任何led灯。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:112
+msgid "getStatus"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:117
+msgid "返回LED的当前状态。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:120
+msgid "状态常量：\\ :java:ref:`STATUS_OFF`\\  或者 \\ :java:ref:`STATUS_ON`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:123
+msgid "open"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:128
+msgid "打开LED设备,和对应的LED设备建立连接。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:130
+msgid "设备逻辑ID。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:134
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:147
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:161
+msgid "startBlink"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:139
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:166
+msgid "使某个led灯进行闪烁，异步方法，可以被取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:152
+msgid ""
+"使某个led灯进行闪烁，异步方法，可以被取消。Led灯的颜色参见\\ :java:ref:`LEDDeviceSpec "
+"<LEDDeviceSpec>`\\ 颜色定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:173
+msgid "turnOff"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:178
+msgid "关闭led灯."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:180
+msgid "Led灯会灭掉。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:185
+msgid "turnOn"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:190
+msgid "打开led灯。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/led/LEDDevice.rst:192
+msgid "LED灯会一直亮下去，直到调用\\ :java:ref:`turnOff()`\\ 或\\ :java:ref:`close()`\\"
+msgstr ""
+

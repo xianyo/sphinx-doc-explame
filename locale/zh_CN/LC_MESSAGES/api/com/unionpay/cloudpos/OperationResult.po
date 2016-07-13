@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:2
+msgid "OperationResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:9
+msgid "操作结果是由设备接口的实现者创建，用来通知操作调用者/监听者这次操作的结果。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:11
+msgid ""
+"\\ **OperationResult**\\ 是所有设备操作结果的基类，定义了通用的获得结果的方法。 "
+"针对每个具体设备可能会有自己特殊的子类返回该设备特有的结果对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:13
+msgid "本类中的\\ ``getResultCode``\\ 方法用于让应用程序判断操作是否成功。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:16
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:18
+msgid "CANCEL"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:23
+msgid "取消"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:26
+msgid "ERR_DEVICE_BASE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:31
+msgid "设备错误起始值"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:34
+msgid "ERR_GENERAL_ERROR"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:39
+msgid "严重错误"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:42
+msgid "ERR_NO_INFO"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:47
+msgid "无法定位具体原因的错误，需要具体看每个Control的实现"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:50
+msgid "ERR_NO_PERMISSION"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:55
+msgid "执行权限错误，包含："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:59
+msgid "操作没有被Control支持。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:60
+msgid "执行时机不对，目前无法执行这个操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:63
+msgid "ERR_TIMEOUT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:68
+msgid "超时"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:71
+msgid "NONE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:76
+msgid "默认初始状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:79
+msgid "SUCCESS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:84
+msgid "成功"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:87
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:89
+msgid "getResultCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:94
+msgid "返回操作状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/OperationResult.rst:96
+msgid "上述的常量值"
+msgstr ""
+

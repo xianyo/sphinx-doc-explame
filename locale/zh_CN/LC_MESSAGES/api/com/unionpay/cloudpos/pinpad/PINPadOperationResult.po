@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:4
+msgid "PINPadOperationResult"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:11
+msgid "PIN输入设备的操作结果对象"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:13
+msgid ""
+"\\ :java:ref:`getResultCode() <OperationResult.getResultCode()>`\\ "
+"方法继承至\\ :java:ref:`OperationResult`\\ 的对应方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:15
+msgid ""
+"通过\\ :java:ref:`getResultCode() <OperationResult.getResultCode()>`\\ "
+"返回PIN输入设备的结果状态 ， 通过\\ :java:ref:`getEncryptedPINBlock() "
+"<PINPadOperationResult.getEncryptedPINBlock()>`\\ 返回加过密的PIN Block。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:18
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:20
+msgid "getEncryptedPINBlock"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:25
+msgid "返回加过密的PIN Block。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/pinpad/PINPadOperationResult.rst:27
+msgid "结果buffer流。"
+msgstr ""
+

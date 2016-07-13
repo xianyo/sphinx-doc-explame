@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:12
+msgid "SerialPortDevice"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:19
+msgid "\\ **SerialPortDevice**\\ 定义了串口设备的接口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:21
+msgid "设备对象通过\\ ``POSTerminal``\\ 的对应方法获得，如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:28
+msgid "其中，\"cloudpos.device.serialport\"是标识串口设备的字符串，由具体的实现定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:30
+msgid "可以通过以下步骤对串口设备对象进行操作:"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:34
+msgid "通过前面的介绍，得到串口设备对象。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:35
+msgid "调用\\ :java:ref:`open(int)`\\ ,打开成功后，和对应的串口设备建立了连接。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:36
+msgid ""
+"调用\\ :java:ref:`write(byte[],int,int)`\\ "
+",可以将数据buffer流通过该打开的串口设备写到连接到该串口的某个设备中 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:37
+msgid ""
+"有两种方法可以读取串口中传过来数据，一为同步方法：\\ :java:ref:`waitForRead(int,int)`\\ ,一为异步方法\\ "
+":java:ref:`listenForRead(int,OperationListener,int)`\\ "
+",程序可以根据自身的业务逻辑自己选择哪种方式。 值得注意的是，如果选择异步方法，可以通过调用\\ "
+":java:ref:`cancelRequest()`\\ "
+"来取消。同步方法不能取消。这两种方法都定义了超时，因此即使不取消，在超时到来时，不管有没有数据过来，都会返回结果。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:38
+msgid "调用\\ :java:ref:`close()`\\ ,关闭某个串口设备 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:40
+msgid "为了正常访问串口设备，请在Android Manifest文件中设置串口访问权限，具体如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:46
+msgid "**See also:** :java:ref:`Device`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:49
+msgid "Fields"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:51
+msgid "DATABITS_5"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:56
+msgid "数据位 5"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:59
+msgid "DATABITS_6"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:64
+msgid "数据位 6"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:67
+msgid "DATABITS_7"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:72
+msgid "数据位 7"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:75
+msgid "DATABITS_8"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:80
+msgid "数据位 8"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:83
+msgid "FLOWCONTROL_NONE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:88
+msgid "无流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:91
+msgid "FLOWCONTROL_RTSCTS_IN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:96
+msgid "RTS/CTS 输入流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:99
+msgid "FLOWCONTROL_RTSCTS_IN_OUT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:104
+msgid "RTS/CTS 输入/输出流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:107
+msgid "FLOWCONTROL_RTSCTS_OUT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:112
+msgid "RTS/CTS 输出流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:115
+msgid "FLOWCONTROL_XONXOFF_IN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:120
+msgid "XON/XOFF 输入软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:123
+msgid "FLOWCONTROL_XONXOFF_IN_OUT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:128
+msgid "XON/XOFF 输入/输出软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:131
+msgid "FLOWCONTROL_XONXOFF_OUT"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:136
+msgid "XON/XOFF 输出软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:139
+msgid "PARITY_EVEN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:144
+msgid "偶校验"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:147
+msgid "PARITY_NONE"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:152
+msgid "无奇偶校验"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:155
+msgid "PARITY_ODD"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:160
+msgid "奇校验"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:163
+msgid "STOPBITS_1"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:168
+msgid "停止位 1"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:171
+msgid "STOPBITS_1_5"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:176
+msgid "1-1/2 停止位"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:179
+msgid "STOPBITS_2"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:184
+msgid "停止位 2"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:187
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:189
+msgid "changeFlowControlMode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:194
+msgid "设置流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:196
+msgid "在\\ **SerialPortDevice**\\ 中定义的常量："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:200
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:288
+msgid "FLOWCONTROL_NONE - 没有流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:201
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:289
+msgid "FLOWCONTROL_RTSCTS_IN - RTS/CTS 输入硬件流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:202
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:290
+msgid "FLOWCONTROL_RTSCTS_OUT - RTS/CTS 输出 硬件流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:203
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:291
+msgid "FLOWCONTROL_RTSCTS_IN_OUT - RTS/CTS 双向硬件流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:204
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:292
+msgid "FLOWCONTROL_XONXOFF_IN - XON/XOFF 输入软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:205
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:293
+msgid "FLOWCONTROL_XONXOFF_OUT - XON/XOFF 输出软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:206
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:294
+msgid "FLOWCONTROL_XONXOFF_IN_OUT - XON/XOFF输入/输出 软流控"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:207
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:218
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:251
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:261
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:272
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:283
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:304
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:315
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:352
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:365
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:375
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:386
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:405
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:421
+msgid "具体定义参考\\ :java:ref:`DeviceException <DeviceException>`\\ 的文档。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:210
+msgid "changeRTS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:215
+msgid "设置RTS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:217
+msgid "\\ ``true``\\ 设置RTS, \\ ``false``\\ 清除RTS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:221
+msgid "changeSerialPortParams"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:226
+msgid "修改串口参数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:228
+msgid "波特率"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:229
+msgid "数据位"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:233
+msgid "DATABITS_5 - 5 bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:234
+msgid "DATABITS_6 - 6 bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:235
+msgid "DATABITS_7 - 7 bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:236
+msgid "DATABITS_8 - 8 bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:237
+msgid "停止位"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:241
+msgid "STOPBITS_1 - 1 stop bit"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:242
+msgid "STOPBITS_2 - 2 stop bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:243
+msgid "STOPBITS_1_5 - 1.5 stop bits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:244
+msgid "奇偶校验位"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:248
+msgid "PARITY_NONE - no parity"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:249
+msgid "PARITY_ODD - odd parity"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:250
+msgid "PARITY_EVEN - even parity"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:254
+msgid "getBaudRate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:259
+msgid "返回串口波特率"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:262
+msgid "integer 波特率"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:265
+msgid "getDataBits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:270
+msgid "返回当前数据位。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:273
+msgid ""
+"\\ **SerialPortDevice**\\ 中定义的如下常量：DATABITS_5, DATABITS_6, DATABITS_7, or"
+" DATABITS_8"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:276
+msgid "getFlowControlMode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:281
+msgid "返回当前的流控设置"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:284
+msgid "返回\\ **SerialPortDevice**\\ 中定义的常量："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:297
+msgid "getParity"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:302
+msgid "返回奇偶校验位"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:305
+msgid "如下常量： PARITY_NONE, PARITY_ODD, or PARITY_EVEN"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:308
+msgid "getStopBits"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:313
+msgid "返回停止位。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:316
+msgid "停止位是以下常量：STOPBITS_1, STOPBITS_2, or STOPBITS_1_5"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:319
+msgid "listenForRead"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:324
+msgid ""
+"从包含的输入流中将最多\\ ``len``\\ 个字节读入一个\\ ``data``\\  数组中。 尽量读取\\ ``len``\\ "
+"个字节，但读取的字节数可能少于\\ ``len``\\ 个，也可能为零。以整数形式返回实际读取的字节数。 如果\\ ``len``\\ "
+"为零，则不读取任何字节并返回 0；否则，尝试读取至少一个字节。如果因为流位于文件未尾而没有字节可用，则返回值 "
+"-1；否则，至少读取一个字节并将其存储到\\ ``data``\\ 中。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:326
+msgid ""
+"将读取的第一个字节存储到元素\\ ``data[offset]``\\  中，将下一个字节存储到\\ ``data[offset+1]``\\ "
+"中， 依此类推。读取的字节数至多等于\\ ``len``\\ 。 设 k 为实际读取的字节数；这些字节将存储在\\ "
+"``data[offset]``\\ 到\\ ``data[offset+k-1]``\\ 的元素中，\\ "
+"``data[offset+k]``\\ 到\\ ``data[offset+len-1]``\\ 的元素不受影响。 在所有情况下，\\ "
+"``data[0]``\\ 到\\ ``data[offset]``\\ 的元素和\\ ``data[offset+len]``\\ 到\\ "
+"``data[data.length-1]``\\ 的元素都不受影响。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:328
+msgid "本方法会正确响应 \\ :java:ref:`cancelRequest()`\\ 方法来取消操作。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:330
+msgid ""
+"本方法是一个异步方法，应用程序发出读取命令后，终端通过操作监听者\\ :java:ref:`handleResult() "
+"<OperationListener.handleResult(OperationResult)>`\\ 方法返回结果。 "
+"每个应用程序必须定义自己的OperationListener，在回调函数handleResult()中对返回结果进行处理。如下所示："
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:341
+msgid "方法通过设置timeout来决定最多等待多长时间。请求开始执行的时候timeout开始计时。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:343
+msgid ""
+"如果timeout时间到了，但还没有数据读到，也会回调函数handleResult()。此时 OperationResult会返回错误：\\ "
+":java:ref:`ERR_TIMEOUT <OperationResult.ERR_TIMEOUT>`\\ ，同时没有任何数据返回"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:345
+msgid ""
+"如果timeout是\\ :java:ref:`FOREVER <TimeConstants.FOREVER>`\\ "
+"，方法会一直等待，直到有数据返回或取消。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:347
+msgid "如果timeout是\\ :java:ref:`IMMEDIATE <TimeConstants.IMMEDIATE>`\\ ，方法会马上返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:349
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:403
+msgid "需要读取的最大长度"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:350
+msgid "操作监听者。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:351
+msgid ""
+"最大等待时间，通过时间常量设定\\ :java:ref:`SECOND <TimeConstants.SECOND>`\\ ,\\ "
+":java:ref:`MilliSECOND <TimeConstants.MilliSECOND>`\\ , \\ "
+":java:ref:`FOREVER <TimeConstants.FOREVER>`\\ ,\\ :java:ref:`IMMEDIATE "
+"<TimeConstants.IMMEDIATE>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:354
+msgid ""
+"**See also:** :java:ref:`OperationListener.handleResult`, "
+":java:ref:`SerialPortOperationResult`, :java:ref:`TimeConstants.FOREVER`,"
+" :java:ref:`TimeConstants.IMMEDIATE`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:357
+msgid "open"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:362
+msgid "打开某个逻辑ID的串口设备"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:364
+msgid "串口设备逻辑ID"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:368
+msgid "retrieveCTS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:373
+msgid "返回CTS状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:376
+msgid "true, CTS已经被设置，false, CTS已经被清除"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:379
+msgid "retrieveRTS"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:384
+msgid "返回当前RTS状态"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:387
+msgid "true, RTS已经被设置 false, RTS已被清除"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:390
+msgid "waitForRead"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:395
+msgid ""
+"本方法是上述对应的 \\ :java:ref:`listenForRead(int,OperationListener,int)`\\ "
+"方法的同步版本。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:397
+msgid "只有当超时发生或者操作正常完成，本次调用才会返回。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:399
+msgid "由于带有超时，本方法会响应\\ :java:ref:`cancelRequest()`\\ 方法。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:401
+msgid ""
+"如果超时发生，会返回这个操作结果： \\ :java:ref:`ERR_TIMEOUT "
+"<OperationResult.ERR_TIMEOUT>`\\ 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:404
+msgid "超时"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:406
+msgid "操作结果\\ ``SerialPortOperationResult``\\"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:408
+msgid ""
+"**See also:** :java:ref:`SerialPortOperationResult`, "
+":java:ref:`TimeConstants.FOREVER`, :java:ref:`TimeConstants.IMMEDIATE`"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:411
+msgid "write"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:416
+msgid "将指定\\ ``data``\\ 数组中从偏移量\\ ``offset``\\  开始的\\ ``len``\\ 个字节写入串口。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:418
+msgid "数据"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:419
+msgid "数据中的起始偏移量。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/serialport/SerialPortDevice.rst:420
+msgid "要写入的字节数。"
+msgstr ""
+

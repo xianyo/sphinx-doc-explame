@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:4
+msgid "PrinterDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:11
+msgid "\\ **PrinterDeviceSpec**\\ 定义了对打印机的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:13
+msgid "可以得到终端中关于打印机定义的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:16
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:18
+msgid "canCutPaper"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:23
+msgid "打印机是否能切纸。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:25
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:36
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:47
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:58
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:79
+msgid "打印机逻辑ID，默认为0"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:26
+msgid "\\ ``true``\\  支持，\\ ``false``\\  不支持，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:29
+msgid "canSetDensity"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:34
+msgid "是否支持打印浓度的设定。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:37
+msgid "\\ ``true``\\  支持，\\ ``false``\\ 不支持，参数错误也返回false."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:40
+msgid "getBarCodeFormat"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:45
+msgid "返回可打印barcode的格式。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:48
+msgid "可打印条码的格式，参数错误及不支持返回null."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:51
+msgid "getBaseFontHeight"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:56
+msgid "返回标准字体的点数高度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:59
+msgid "打印机的标准字体的高度，参数错误及不支持返回0."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:62
+msgid "getCounts"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:67
+msgid "返回当前终端有几个打印机。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:69
+msgid "终端中打印机个数，不支持返回0."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:72
+msgid "getWidth"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:77
+msgid "返回可打印的最大宽度。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/printer/PrinterDeviceSpec.rst:80
+msgid "打印机的最大显示宽度 ，参数错误及不支持返回0."
+msgstr ""
+

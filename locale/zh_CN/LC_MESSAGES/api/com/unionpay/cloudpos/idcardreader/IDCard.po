@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:4
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:16
+msgid "IDCard"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:11
+msgid "本接口主要用于表示身份证"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:14
+msgid "Constructors"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:24
+msgid "getAddress"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:29
+msgid "获取地址"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:31
+msgid "地址"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:34
+msgid "getBorn"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:39
+msgid "获取出生日期"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:41
+msgid "出生日期"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:44
+msgid "getGrantDept"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:49
+msgid "获取颁发部门"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:51
+msgid "颁发部门"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:54
+msgid "getIDCardNo"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:59
+msgid "获取身份证号"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:61
+msgid "身份证号"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:64
+msgid "getName"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:69
+msgid "获取姓名"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:71
+msgid "姓名"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:74
+msgid "getNation"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:79
+msgid "获取国籍"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:81
+msgid "国籍"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:84
+msgid "getPicture"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:89
+msgid "获取对加密数据解密后的身份证相片"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:91
+msgid "对加密数据解密后的身份证相片"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:94
+msgid "getReserved"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:99
+msgid "获取其他保留信息"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:101
+msgid "其他保留信息"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:104
+msgid "getSex"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:109
+msgid "获取性别"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:111
+msgid "性别"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:114
+msgid "getValidFromDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:119
+msgid "获取有效期开始日期"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:121
+msgid "有效期开始日期"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:124
+msgid "getValidToDate"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:129
+msgid "获取有效期结束日期"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/idcardreader/IDCard.rst:131
+msgid "有效期结束日期"
+msgstr ""
+

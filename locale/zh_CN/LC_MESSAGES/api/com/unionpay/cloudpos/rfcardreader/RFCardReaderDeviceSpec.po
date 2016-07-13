@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:4
+msgid "RFCardReaderDeviceSpec"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:11
+msgid "\\ **RFCardReaderDeviceSpec**\\ 定义了对非接卡读卡器的详细描述。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:13
+msgid "可以得到终端中关于非接触式IC卡阅读器定义的信息。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:16
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:18
+msgid "getSupportedModes"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:23
+msgid ""
+"返回非接卡模式。 模式定义见\\ :java:ref:`RFCardReaderDevice <RFCardReaderDevice>`\\ "
+"常量部分定义。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:25
+msgid "返回模式，不支持返回null。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:28
+msgid "isRemovable"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:33
+msgid "是否支持等待卡片移除."
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/rfcardreader/RFCardReaderDeviceSpec.rst:35
+msgid "\\ ``true``\\  支持，\\ ``false``\\  不支持."
+msgstr ""
+

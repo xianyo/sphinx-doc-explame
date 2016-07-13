@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:2
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:14
+msgid "MoneyValue"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:9
+msgid "电子钱包数据结构。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:12
+msgid "Constructors"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:19
+msgid "电子钱包构造函数。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:25
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:27
+msgid "getMoney"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:32
+msgid "返回money。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:34
+msgid "money"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:37
+msgid "getUserData"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:42
+msgid "返回userdata。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/card/MoneyValue.rst:44
+msgid "userdata"
+msgstr ""
+

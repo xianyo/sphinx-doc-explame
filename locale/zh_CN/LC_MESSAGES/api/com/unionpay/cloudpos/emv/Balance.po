@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, zhuxy
+# This file is distributed under the same license as the Sphinx-doc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-doc 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-13 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:2
+msgid "Balance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:10
+msgid "Methods"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:12
+msgid "getFirstCurrencyBalance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:17
+msgid "获取第一余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:19
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:59
+msgid "第一余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:22
+msgid "getFirstCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:27
+msgid "获取第一货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:29
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:69
+msgid "第一货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:32
+msgid "getSecondCurrencyBalance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:37
+msgid "获取第二余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:39
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:79
+msgid "第二余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:42
+msgid "getSecondCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:47
+msgid "获取第二货币代码 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:49
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:89
+msgid "第二货币代码 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:52
+msgid "setFirstCurrencyBalance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:57
+msgid "设置第一余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:62
+msgid "setFirstCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:67
+msgid "设置第一货币代码。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:72
+msgid "setSecondCurrencyBalance"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:77
+msgid "设置第二余额 。"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:82
+msgid "setSecondCurrencyCode"
+msgstr ""
+
+#: ../../api/com/unionpay/cloudpos/emv/Balance.rst:87
+msgid "设置第二货币代码 。"
+msgstr ""
+
